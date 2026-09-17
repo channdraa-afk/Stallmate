@@ -12,8 +12,8 @@
 
 ---
 
-## 🌿 Detail Misi Proyek
-Proyek ini dibangun sebagai bagian dari misi **"Menghijaukan GitHub"** serta solusi taktis cepat untuk **kegiatan bazar sekolah, festival kuliner, dan pop-up market**. 
+## 🌿 Tentang Proyek
+**Stallmate** adalah solusi pemesanan mandiri (*self-ordering*) dan kasir *real-time* yang dirancang khusus untuk **kegiatan bazar sekolah, festival kuliner, pop-up market, dan gerai makanan indie**. 
 
 Masalah utama di stand bazar adalah antrean menumpuk, kasir yang kewalahan menghitung pesanan dan kembalian, serta stok bahan yang tiba-tiba habis tanpa diketahui pembeli. **Stallmate** mengatasi masalah tersebut dengan membagi pengalaman menjadi dua sisi tanpa friksi:
 1. **Pengunjung (Self-Ordering Tanpa Login)**: Datang, scan QR code stand di meja/banner, lihat katalog dengan status stok *real-time*, pilih menu, pesan kilat, dan pantau nomor antrean langsung dari layar HP masing-masing.
@@ -21,13 +21,8 @@ Masalah utama di stand bazar adalah antrean menumpuk, kasir yang kewalahan mengh
 
 ---
 
-## 👤 Tentang Developer
-
-### 👨‍💻 Chandra (`channdraa-afk`)
-* **Profil**: Siswa & Pelajar Jurusan Rekayasa Perangkat Lunak (RPL).
-* **GitHub**: [channdraa-afk](https://github.com/channdraa-afk)
-* **Karakteristik & Visi**: Membangun aplikasi yang fungsional, memecahkan masalah dunia nyata secara taktis, dan memiliki sentuhan estetika berkarakter tinggi.
-* **Selera Desain**: *Warm Studio Modern*, *tactile nostalgia*, vintage, retro-industrial, dan menolak gaya klise *neon-cyberpunk / AI-glassmorphism*.
+## 👨‍💻 Author
+Dikembangkan oleh **Chandra** ([@channdraa-afk](https://github.com/channdraa-afk)) — Pelajar Rekayasa Perangkat Lunak (RPL).
 
 ---
 
@@ -131,7 +126,8 @@ Sesuai palet terpilih yang hangat, ramah di mata, dan bernuansa kedai artisan:
 
 ### 2. Clone & Masuk ke Direktori
 ```bash
-cd "C:\My Project\Stallmate"
+git clone https://github.com/channdraa-afk/stallmate.git
+cd stallmate
 ```
 
 ### 3. Instal Dependensi
