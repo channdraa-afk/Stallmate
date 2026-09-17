@@ -1,6 +1,8 @@
-# ☕ CepatkanBayar — Sistem Kasir & Pesan Mandiri Bazar
+# ♟️ Stallmate — The Tactile Pop-up Stall & Cashier Companion
 
-> **"Koleksi memori transaksi yang hangat, cepat, dan tanpa hambatan di tengah hiruk-pikuk bazar."**
+> **"Your trustworthy booth buddy. Frictionless QR self-ordering and real-time kitchen flow for bustling school festivals, food markets, and indie pop-up bazaars."**
+>
+> 💡 *Why "Stallmate"?* A clever blend of **"Stall"** (pop-up booth) + **"Mate"** (trusted partner) — a playful nod to chess (*stalemate*), designed to make festival sales completely smooth and effortless.
 
 [![Vite](https://img.shields.io/badge/Vite-8.2-646CFF?logo=vite&logoColor=white)](#)
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)](#)
@@ -11,9 +13,9 @@
 ---
 
 ## 🌿 Detail Misi Proyek
-Proyek ini dibangun sebagai bagian dari misi **"Menghijaukan GitHub"** serta solusi taktis cepat untuk **kegiatan bazar**. 
+Proyek ini dibangun sebagai bagian dari misi **"Menghijaukan GitHub"** serta solusi taktis cepat untuk **kegiatan bazar sekolah, festival kuliner, dan pop-up market**. 
 
-Masalah utama di stand bazar adalah antrean menumpuk, kasir yang kewalahan menghitung pesanan dan kembalian, serta stok bahan yang tiba-tiba habis tanpa diketahui pembeli. **CepatkanBayar** mengatasi masalah tersebut dengan membagi pengalaman menjadi dua sisi tanpa friksi:
+Masalah utama di stand bazar adalah antrean menumpuk, kasir yang kewalahan menghitung pesanan dan kembalian, serta stok bahan yang tiba-tiba habis tanpa diketahui pembeli. **Stallmate** mengatasi masalah tersebut dengan membagi pengalaman menjadi dua sisi tanpa friksi:
 1. **Pengunjung (Self-Ordering Tanpa Login)**: Datang, scan QR code stand di meja/banner, lihat katalog dengan status stok *real-time*, pilih menu, pesan kilat, dan pantau nomor antrean langsung dari layar HP masing-masing.
 2. **Kasir (Hidden Gatekeeper / Pintu Rahasia)**: Kasir membuka dashboard tersembunyi dengan mengetuk logo stand 5x berturut-turut, memantau antrean pesanan yang masuk detik itu juga dengan bunyi lonceng kasir vintage (*kaching!*), mencentang pesanan selesai yang otomatis tersembunyi dari antrean aktif, serta menambah stok dadakan (*quick restock*) dalam 1-klik saat masakan baru matang.
 
@@ -129,7 +131,7 @@ Sesuai palet terpilih yang hangat, ramah di mata, dan bernuansa kedai artisan:
 
 ### 2. Clone & Masuk ke Direktori
 ```bash
-cd "C:\My Project\Cepatkan Bayar"
+cd "C:\My Project\Stallmate"
 ```
 
 ### 3. Instal Dependensi
@@ -202,12 +204,12 @@ Proyek ini telah diaudit keamanannya dengan standar ketat:
    ```bash
    git init
    git add .
-   git commit -m "feat: inisialisasi sistem kasir bazar CepatkanBayar"
+   git commit -m "feat: inisialisasi Stallmate - pop-up stall companion"
    git branch -M main
-   git remote add origin https://github.com/channdraa-afk/cepatkan-bayar.git
+   git remote add origin https://github.com/channdraa-afk/stallmate.git
    git push -u origin main
    ```
-2. Buka [Vercel](https://vercel.com) ➔ klik **Add New Project** ➔ pilih repositori `cepatkan-bayar`.
+2. Buka [Vercel](https://vercel.com) ➔ klik **Add New Project** ➔ pilih repositori `stallmate`.
 3. Di bagian **Environment Variables**, masukkan:
    * `VITE_SUPABASE_URL`
    * `VITE_SUPABASE_ANON_KEY`
